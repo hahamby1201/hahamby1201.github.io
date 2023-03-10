@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> HTML CSS Static Web Page Design </title>
+
+    <style>
+        #main {
+            width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        #titlediv {
+            color: dodgerblue;
+            font-size: 20pt;
+            font-weight: bold;
+        }
+
+        #bodydiv {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #newsdiv {
+            background-color: #ededed;
+            margin: 0;
+        }
+
+        #footerdiv {
+            background-color: #faf7f7;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            color: dimgrey;
+            height: 100px;
+            align-items: center;
+            margin: 0;
+        }
+
+        #leftdiv {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #rightdiv {
+            flex-grow: 1;
+        }
+
+        #biodiv {
+        }
+
+        #lowdiv {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #interestdiv {
+        }
+
+        #edudiv {
+        }
+    </style>
+
+</head>
+<body>
+    <div id="main">
+        <div id="titlediv">
+            Hogan Hamby's Website
+        </div>
+        <div id="bodydiv">
+            <div id="leftdiv">
+                <div>
+                    <img style="width:200px; border-radius:50%;" src="static/imgs/head1.png" />
+                </div>
+
+                <div style="font-size:30px;">Hogan Hamby</div>
+
+                <div style="color:dimgrey;">
+                    Student in Management Information Systems
+                </div>
+
+                <div style="color:dimgrey;">
+                    The University of Oklahoma
+                </div>
+                <div>
+                    <a target="_blank" href="mailto:hahamby@ou.edu">
+                        <img style="width:30px;" src="static/imgs/email.png" />
+                    </a>
+                    <a target="_blank" href="https://www.linkedin.com/">
+                        <img style="width:30px;" src="static/imgs/linkedin.png" />
+                    </a>
+                    <a target="blank" href="https://twitter.com/">
+                        <img style="width:30px;" src="static/imgs/twitter.png" />
+                    </a>
+                    <a target="_blank" href="https://www.instagram.com">
+                        <img style="width:30px;" src="static/imgs/instagram.png" />
+                    </a>
+                </div>
+
+            </div>
+            <div id="rightdiv">
+                <div id="biodiv">
+                    <span style="font-size:30px;font-weight:bold;">Biography</span>
+
+                    <p>
+                        I am a Senior student in Management Information Systems at The University of Oklahoma. I am on the 2022/2023 job market.
+                    </p>
+
+                    <p>
+                        My study focuses on data analytics and I am good at programming (Console, Desktop and Web Applications) and databases management.
+
+                    </p>
+
+                    <p>
+                        For more information, please refer to my <a href="static/files/hogan.pdf" target="_blank">CV</a>.
+
+                    </p>
+                </div>
+                <div id="lowdiv">
+
+                    <div id="interestdiv">
+                        <span style="font-size:30px;font-weight:bold;">Interests</span>
+
+                        <ol>
+                            <li>Watching Sports</li>
+                            <li>Golfing</li>
+                            <li>Markets/Stocks</li>
+                            <li>Trying New Restaurants</li>
+                            <li>My Kittens</li>
+                        </ol>
+
+
+                    </div>
+                    <div id="edudiv">
+                        <span style="font-size:30px;font-weight:bold">Education</span>
+
+                        <ul>
+                            <li>
+                                B.S. in Management Information Systems, 2023 <br />
+                                The University of Oklahoma
+                            </li>
+                          
+
+                        </ul>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div id="newsdiv">
+            <span style="font-size:30px;font-weight:bold;">Recent News</span>
+            <ul style="margin:0;">
+                <li>Learning C# Web Application Design</li>
+                <li>Learning C# EF</li>
+            </ul>
+        </div>
+        <div id="footerdiv">
+            Designed and Published by Hogan Hamby
+        </div>
+    </div>
+
+</body>
+</html>
